@@ -27,7 +27,7 @@ public class TestWebServlet extends HttpServlet {
 	}
 
 	/**
-	 * Destruction of the servlet. <br>
+	 * Destruction Test of the servlet. <br>
 	 */
 	public void destroy() {
 		super.destroy(); // Just puts "destroy" string in log
@@ -122,6 +122,10 @@ public class TestWebServlet extends HttpServlet {
 	public void getDatabaseConn(){
 		
 	}
+
+        public String returnStr(){
+           return "";
+        }
 	
 
 }
